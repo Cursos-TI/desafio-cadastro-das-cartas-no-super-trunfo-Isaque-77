@@ -48,12 +48,13 @@ int main() {
     scanf("%f", &pib);
 
     printf("Informe o número de pontos turísticos: \n");
-    scanf("%d\n", &turismo);
+    scanf("%d", &turismo);
+    printf("\n"); //arruma o código para o usuário
 
     printf("Carta 1\n");
     printf("Estado: %c\n", estado);
     printf("Código: %s\n", codigo);
-    printf("Nome: %s\n", nome);
+    printf("Nome da Cidade: %s\n", nome);
     printf("Habitantes: %.2f milhões\n", habitantes);
     printf("Área: %.2f  km²\n", area);
     printf("PIB: %.2f bilhões\n", pib);
@@ -88,12 +89,13 @@ int main() {
     scanf("%f", &pib2);
 
     printf("Informe o número de pontos turísticos: \n");
-    scanf("%d\n", &turismo2);
+    scanf("%d", &turismo2);
+    printf("\n");
 
     printf("Carta 2\n");
     printf("Estado: %c\n", Estado);
     printf("Código: %s\n", codigo2);
-    printf("Nome: %s\n", nome2);
+    printf("Nome da Cidade: %s\n", nome2);
     printf("Habitantes: %.2f milhões\n", habitantes2);
     printf("Área: %.2f  km²\n", area2);
     printf("PIB: %.2f bilhões\n", pib2);
