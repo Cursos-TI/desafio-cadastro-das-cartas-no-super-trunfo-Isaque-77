@@ -241,7 +241,7 @@ int main() {
 
 
     //----Desafio Aventureiro (implementar um switch para que o jogador possa escolher o atributo de comparação entre duas cartas) - Tema 2----
-    int jogador;
+    int atributo;
 
     printf("Escolha qual atributo deseja comparar:\n");
     printf("1. População\n");
@@ -251,11 +251,11 @@ int main() {
     printf("5. Densidade Populacional\n");
     printf("6. Pib per Capita\n");
     printf("7. Super Poder\n");
-    printf("Escolha: ");
-    scanf("%d", &jogador);
+    printf("Comparar: ");
+    scanf("%d", &atributo);
     printf("\nCarta 1 (%s) x Carta 2 (%s)\n", nome, nome2);
 
-    switch (jogador)
+    switch (atributo)
     {
     case 1:
         printf("População (%lu) x População (%lu)\n", populacao, populacao2);
